@@ -1,0 +1,129 @@
+﻿body {
+    background-color: black;
+    font-family: 'Noto Serif TC', serif;
+    color:white;
+}
+* {
+    box-sizing: border-box;
+}
+.navigationbar {
+    background-color: black;
+    height: 100px;
+}
+.content {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+#logo {
+    background-image: url("交傲頭貼黑.png");
+    height: 100px;
+    background-size: cover;
+}
+input {
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    font-family: fantasy;
+}
+#btn {
+    margin-top:10px;
+    padding-bottom:30px;
+    height: 35px;
+    background-color: #cfc8ad;
+    text-align:center;
+}
+.mouse {
+    cursor: pointer;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 4.5rem;
+    left: 0px;
+    display: inline-block;
+    float: left;
+    position: absolute;
+    bottom: 30px;
+}
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 15px;
+    /*border: 5px solid black;*/
+}
+
+.hidden-when-small {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .hidden-when-small {
+        display: block;
+    }
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*text-decoration:line-through;*/
